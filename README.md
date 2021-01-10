@@ -43,20 +43,20 @@ code passes the tests.
 
 ### App
 
-In the `App` component, pass down data from the `user` object as props to the
+<!-- In the `App` component, pass down data from the `user` object as props to the
 `Home` component so that it renders correctly. There is some starter code for
 you in the `Home` component that should give you a clue as to what props this
-component takes in.
+component takes in. -->
 
-`App` should also pass down a prop of `bio` to the `About` component.
+<!-- `App` should also pass down a prop of `bio` to the `About` component. -->
 
-Finally, `App` should **also** pass down the `github` and `linkedin` links to
+<!-- Finally, `App` should **also** pass down the `github` and `linkedin` links to
 the `About` component, so that `About` can pass those props down to the `Links`
-component!
+component! -->
 
 ### About
 
-Update the `About` component so that:
+<!-- Update the `About` component so that:
 
 - If a prop of `bio` is passed to this component, it is displayed inside of a
   `<p>` tag
@@ -64,17 +64,17 @@ Update the `About` component so that:
   **don't** display the `<p>` tag
 - **Hint**: you'll need to do some
   [_conditional rendering_][conditional rendering] here to determine whether or
-  not to display the `<p>` tag
+  not to display the `<p>` tag -->
 
 ### Links
 
-Create a new component called `Links`. In this component, display the following:
+<!-- Create a new component called `Links`. In this component, display the following:
 
 - a `<h3>` element with the text of "Links"
 - a `<a>` element with its `href` and text set to the user's Github link, passed
   down as a prop
 - a second `<a>` element with its `href` and text set to the user's LinkedIn
-  link, passed down as a prop
+  link, passed down as a prop -->
 
 ## Resources
 
